@@ -3,7 +3,7 @@ const  app  =  express ( ) ;
 const  porta  =  processo . env . PORTO  ||  3000 ;
 
 aplicativo . get ( '/' ,  ( req ,  res )  =>  {
-    res . send ( "Atividade antes da avaliação!!" ) ;
+    res . send ( "Atividade antes da avaliação !!" ) ;
 } )
 
 aplicativo . escutar ( porta ,  ( )  =>  {
